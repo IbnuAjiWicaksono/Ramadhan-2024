@@ -97,7 +97,7 @@ input[type="text"] {
 /* Mobile phone */
 @media (max-width: 450px) {
     html {
-        padding-top: 6rem;
+        padding-top: 4rem;
         font-size: 60%;
     }
     .imgpag2{
