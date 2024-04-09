@@ -95,7 +95,7 @@ button:hover{
 /* Mobile phone */
 @media (max-width: 450px) {
     html {
-        padding-top: 5rem;
+        padding-top: 3rem;
         font-size: 60%;
     }
     .imgpag2{
