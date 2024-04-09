@@ -89,7 +89,7 @@ button:hover{
     }
     .hero .content h1 {
         font-size: 3rem;
-        padding-top: 10rem;
+        padding-top: 8rem;
     }
 }
 /* Mobile phone */
@@ -103,6 +103,6 @@ button:hover{
     }
     .hero .content h1 {
         font-size: 3rem;
-        padding-top: 18rem;
+        padding-top: 16rem;
     }
 }
