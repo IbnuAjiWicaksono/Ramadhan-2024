@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="...">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Tilt+Neon&display=swap" rel="stylesheet">
+
+     <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     
+    <title>Eid Mubarak 2024</title>
+    
+   <!-- style css -->
+   <link rel="stylesheet" href="../CSS/tes2.css">
+
+    </style>
+</head>
+<body>
+    <div class="content text-center pt-5">
+        <img src="../IMG/quotes.png" class="imgpag2" width="300rem" height="300rem">
+    </div>
+    <div class="content text-center">
+        <h1>Quote for you</h1>
+    </div>
+    
+    <div class=" quote content text-center" id="quote-container" ></div>
+
+    <div class="content text-center">
+        <button class="start"><a href="indeks.html">Home</a></button>
+    </div>
+
+    <script>
+        // Mengambil kutipan dari session storage
+        const randomQuote = sessionStorage.getItem('randomQuote');
+        if (randomQuote) {
+            document.getElementById('quote-container').innerText = randomQuote;
+        } else {
+            document.getElementById('quote-container').innerText = 'No quote available';
+        }
+    </script>
+</body>
+</html>
