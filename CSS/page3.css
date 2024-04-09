@@ -63,6 +63,7 @@ button:hover{
     html{
         padding-top: 5rem;
         font-size: 80%;
+        padding-bottom: 1rem;
     }
     .imgpag2{
         align-items: center;
@@ -75,7 +76,8 @@ button:hover{
 @media (max-width: 768px) {
     html {
         font-size: 75%;
-        padding-top: 4rem;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
     }
     .imgpag2{
         height: 30rem;
@@ -86,8 +88,9 @@ button:hover{
 /* Mobile phone */
 @media (max-width: 450px) {
     html {
-        padding-top: 8rem;
+        padding-top: 6rem;
         font-size: 60%;
+        padding-bottom: 1rem;
     }
     .imgpag2{
         padding-bottom: 0.5rem;
